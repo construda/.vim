@@ -27,6 +27,13 @@ map <leader>ba :Bclose<cr>
 " Close all the buffers
 map <leader>ba :1,100 bd!<cr>
 
+""""""""""""""""""""""""""""""""""""""""""""""""
+" => Nvim-R Shortcuts 
+""""""""""""""""""""""""""""""""""""""""""""""""
+" Spacebar sends current line or current selection
+vmap <Space> <Plug>RDSendSelection
+nmap <Space> <Plug>RDSendLine
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""
 " => VIM User Interface
@@ -41,6 +48,7 @@ cnoremap jk <ESC>
 cnoremap kj <ESC>
 inoremap jk <ESC>
 inoremap kj <ESC>
+"imap jk <Esc> 
 
 set ruler
 set cmdheight=2
@@ -93,7 +101,7 @@ map <C-l> <C-W>l
 "colorscheme xemacs
 "colorscheme wood
 "colorscheme vimbrant
-colorscheme wellsokai
+"colorscheme wellsokai
 "colorscheme wasabi256
 "colorscheme vorange
 "colorscheme vimbrains
@@ -101,7 +109,7 @@ colorscheme wellsokai
 
 
 
-"syntax enable
+syntax enable
 "set background=dark
 "let g:alduin_Shout_Dragon_Aspect = 1
 "colorscheme alduin 
@@ -109,8 +117,8 @@ colorscheme wellsokai
 "colorscheme afterglow
 "let g:challenger_deep_termcolors
 "colorscheme challenger_deep
-"let g:jellybeans_use_lowcolor_black = 1
-"colorscheme jellybeans
+let g:jellybeans_use_lowcolor_black = 1
+colorscheme jellybeans
 "let g:airline_theme='minimalist'
 "let g:airline_powerline_fonts = 1
 "let g:airline#extensions#tabline#enabled = 1

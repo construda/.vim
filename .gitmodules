@@ -1,0 +1,15 @@
+[submodule "/home/danny/.vim/bundle/vim-airline"]
+	path = /home/danny/.vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "/home/danny/.vim/bundle/awesome-vim-colorschemes"]
+	path = /home/danny/.vim/bundle/awesome-vim-colorschemes
+	url = https://github.com/rafi/awesome-vim-colorschemes.git
+[submodule "/home/danny/.vim/bundle/colorschemes"]
+	path = /home/danny/.vim/bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "/home/danny/.vim/bundle/vim-easyescape"]
+	path = /home/danny/.vim/bundle/vim-easyescape
+	url = https://github.com/zhou13/vim-easyescape.git
+[submodule "/home/danny/.vim/bundle/Nvim-R"]
+	path = /home/danny/.vim/bundle/Nvim-R
+	url = https://github.com/jalvesaq/Nvim-R.git
